@@ -34,5 +34,15 @@ toolchain: buildroot
 toolchain-shell: | toolchain
 	PATH=$(abspath toolchain/host/usr/bin):$(PATH) bash
 
-.PHONY: buildroot toolchain toolchain-shell
+# "skeleton" is a dummy image that only contains the "common" stuff.
+# It's not useful beyond just testing that the common image build
+# machinery is working, though in a pinch it could be used as a base
+# image for some manual post-build tweaking.
+skeleton: | toolchain
+	mkdir -p skeleton-image
+	make O=$(BASE_DIR)/skeleton -C $(SETUP_DIR)/buildroot defgrid_common_defconfig
+	make -C $(BASE_DIR)/skeleton
+	./scripts/make-disk-image skeleton/images
+
+.PHONY: buildroot toolchain toolchain-shell skeleton
 .PRECIOUS: $(SETUP_DIR)/buildroot-$(BUILDROOT_VERSION).tar.bz2 $(SETUP_DIR)/buildroot/Makefile
