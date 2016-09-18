@@ -1,0 +1,2 @@
+system 2999 system 2999 =temp /home/provisioning /bin/sh - Automated Provisioning
+admin 3000 admin 3000 =temp /home/admin /bin/sh - Interactive Administration

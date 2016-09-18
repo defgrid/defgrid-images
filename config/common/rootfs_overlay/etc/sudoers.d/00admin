@@ -1,0 +1,4 @@
+# The admin user is allowed to run anything with no password,
+# since this user is shared between all sysadmins in an organization
+# and differentiated only by one-time password usage in Vault.
+admin ALL=(ALL) NOPASSWD: ALL
