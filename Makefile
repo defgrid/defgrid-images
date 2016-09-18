@@ -21,5 +21,11 @@ $(SETUP_DIR)/buildroot/Makefile: $(SETUP_DIR)/buildroot-$(BUILDROOT_VERSION).tar
 
 buildroot: $(SETUP_DIR)/buildroot/Makefile
 
-.PHONY: buildroot
+toolchain: buildroot
+	$(MAKE) -C toolchain
+
+toolchain-shell: | toolchain
+	PATH=$(abspath toolchain/host/usr/bin):$(PATH) bash
+
+.PHONY: buildroot toolchain toolchain-shell
 .PRECIOUS: $(SETUP_DIR)/buildroot-$(BUILDROOT_VERSION).tar.bz2 $(SETUP_DIR)/buildroot/Makefile
