@@ -1,8 +1,15 @@
 
 BUILDROOT_VERSION=2016.08
 
-SETUP_DIR=setup
-BR2_DL_DIR=$(abspath $(SETUP_DIR))
+BASE_DIR=$(abspath .)
+SETUP_DIR=$(abspath setup)
+DG_TOOLCHAIN_SYSROOT=$(abspath toolchain/host/usr)
+BR2_DL_DIR=$(SETUP_DIR)
+BR2_EXTERNAL=$(abspath config)
+
+export BR2_DL_DIR
+export BR2_EXTERNAL
+export DG_TOOLCHAIN_ROOT
 
 default:
 	echo We have no default make target right now

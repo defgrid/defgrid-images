@@ -6,3 +6,4 @@ target/*
 .config.tmp
 .config.old
 ..config.tmp
+.br-external

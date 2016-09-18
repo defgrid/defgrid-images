@@ -1,0 +1,38 @@
+#!/bin/sh
+
+# This script takes a path to an "images" directory produced by
+# one of our buildroot image targets and subsequently augmented
+# by othe other script make-disk-image.
+#
+# It launches qemu in a reasonable configuration for simple testing:
+#  - serial port is virtualized as stdin/stdout
+#  - hard disk image is mapped as ide drive 0
+#  - host port 5022 is redirected to port 22 on the emulated machine
+
+set -eu
+
+ROOT_DIR="$(realpath "$(dirname "$0")/..")"
+
+if [ -z "${1-}" ]; then
+   echo >&2 "Usage: launch-emulator <output-images-dir>"
+   exit 2
+fi
+
+IMAGES_DIR="$(realpath $1)"
+
+if [ ! -f "$IMAGES_DIR/disk.img" ]; then
+   echo >&2 "Missing disk image file $IMAGES_DIR/disk.img.\n"
+   echo >&2 "It's necessary to run buildroot and then run make-disk-image"
+   echo >&2 "before we can boot the result in an emulator."
+   exit 2
+fi
+
+# Our toolchain has a qemu build installed in it
+export PATH="$ROOT_DIR/toolchain/host/usr/sbin:$ROOT_DIR/toolchain/host/usr/bin:$PATH"
+
+cd "$IMAGES_DIR"
+
+qemu-system-x86_64 \
+    -drive file="$IMAGES_DIR/disk.img",if=ide,index=1,format=raw \
+    -serial stdio \
+    -redir tcp:5555::22
