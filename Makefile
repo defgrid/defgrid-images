@@ -39,7 +39,6 @@ toolchain-shell: | toolchain
 # machinery is working, though in a pinch it could be used as a base
 # image for some manual post-build tweaking.
 skeleton: | toolchain
-	mkdir -p skeleton-image
 	make O=$(BASE_DIR)/skeleton -C $(SETUP_DIR)/buildroot defgrid_common_defconfig
 	make -C $(BASE_DIR)/skeleton
 	./scripts/make-disk-image skeleton/images
