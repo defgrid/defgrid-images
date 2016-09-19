@@ -34,5 +34,7 @@ cd "$IMAGES_DIR"
 
 qemu-system-x86_64 \
     -drive file="$IMAGES_DIR/disk.img",if=ide,index=1,format=raw \
-    -serial stdio \
+    -chardev stdio,id=virtiocon0 \
+    -device virtio-serial \
+    -device virtconsole,chardev=virtiocon0 \
     -redir tcp:5555::22
