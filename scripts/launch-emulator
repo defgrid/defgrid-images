@@ -33,7 +33,7 @@ export PATH="$ROOT_DIR/toolchain/host/usr/sbin:$ROOT_DIR/toolchain/host/usr/bin:
 cd "$IMAGES_DIR"
 
 qemu-system-x86_64 \
-    -drive file="$IMAGES_DIR/disk.img",if=ide,index=1,format=raw \
+    -drive file="$IMAGES_DIR/disk.img",if=virtio,index=1,format=raw \
     -chardev stdio,id=virtiocon0 \
     -device virtio-serial \
     -device virtconsole,chardev=virtiocon0 \
