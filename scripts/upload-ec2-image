@@ -1,0 +1,73 @@
+#!/bin/sh
+
+# This script takes a path to an "images" directory produced by
+# one of our buildroot image targets and subsequently augmented
+# by othe other script make-disk-image.
+#
+# It takes the created disk.img and loads it into AWS, first
+# as an S3 bucket object, and then as an EBS snapshot, and
+# then finally as an AMI referring to that snapshot.
+#
+# This program assumes that you have the "aws" CLI program
+# installed and that it's somehow configured with an appropriate
+# region and credentials. Unlike most things in this repository,
+# we don't bundle the AWS CLI as part of the toolchain.
+
+set -eu
+
+ROOT_DIR="$(realpath "$(dirname "$0")/..")"
+
+if [ -z "${3-}" ]; then
+   echo >&2 "Usage: upload-ec2-image <images-dir> <s3-target-uri> <ec2-image-name>"
+   exit 2
+fi
+
+IMAGES_DIR="$(realpath $1)"
+S3_URI="$2"
+AMI_NAME="$3"
+
+if [ ! -f "$IMAGES_DIR/disk.img" ]; then
+   echo >&2 "Missing disk image file $IMAGES_DIR/disk.img.\n"
+   echo >&2 "It's necessary to run buildroot and then run make-disk-image"
+   echo >&2 "before we can upload the result to EC2."
+   exit 2
+fi
+
+echo "Uploading image to S3 at $S3_URI..."
+aws s3 cp "$IMAGES_DIR/disk.img" "$S3_URI"
+
+echo "Importing image to EBS snapshot..."
+
+# This is a bit more of a complex affair because EC2 does this
+# asynchronously and so we need to poll for completion.
+OUTPUT_RAW="$(aws ec2 import-snapshot --description "$AMI_NAME" --disk-container "Description=$AMI_NAME,Format=RAW,Url=$S3_URI")"
+
+# Extract the import task id from the JSON, using jq
+eval "$(echo "$OUTPUT_RAW" | jq -r '@sh "IMPORT_ID=\(.ImportTaskId)"')"
+
+STATUS=we_will_soon_find_out
+
+while [ "$STATUS" != "completed" ]; do
+    sleep 10
+    eval "$(aws ec2 describe-import-snapshot-tasks --import-task-ids "$IMPORT_ID" | jq -r '@sh "STATUS=\(.ImportSnapshotTasks[0].SnapshotTaskDetail.Status) PROGRESS=\(.ImportSnapshotTasks[0].SnapshotTaskDetail.Progress) SNAPSHOT_ID=\(.ImportSnapshotTasks[0].SnapshotTaskDetail.SnapshotId) STATUS_MESSAGE=\(.ImportSnapshotTasks[0].SnapshotTaskDetail.StatusMessage)"')"
+
+    if [ "$PROGRESS" != "null" ]; then
+        echo "$PROGRESS"% "$STATUS_MESSAGE"
+    fi
+
+    if [ "$STATUS" = "null" ]; then
+        echo >&2 "Our import task seems to have vanished :("
+        exit 3
+    fi
+done
+
+if [ "$SNAPSHOT_ID" = "null" ]; then
+   echo >&2 EC2 returned no snapshot id even though import completed?!
+   exit 3
+fi
+
+echo "Creating AMI..."
+OUTPUT_RAW="$(aws ec2 register-image --name "$AMI_NAME" --architecture x86_64 --root-device-name /dev/sda1 --virtualization-type hvm --block-device-mappings "DeviceName=/dev/sda1,Ebs={SnapshotId=$SNAPSHOT_ID,DeleteOnTermination=true}")"
+eval "$(echo "$OUTPUT_RAW" | jq -r '@sh "AMI_ID=\(.ImageId)"')"
+
+echo "\nAll done! Created image $AMI_ID\n"
