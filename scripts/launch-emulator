@@ -20,8 +20,8 @@ fi
 
 IMAGES_DIR="$(realpath $1)"
 
-if [ ! -f "$IMAGES_DIR/disk.img" ]; then
-   echo >&2 "Missing disk image file $IMAGES_DIR/disk.img.\n"
+if [ ! -f "$IMAGES_DIR/qemu-disk.img" ]; then
+   echo >&2 "Missing disk image file $IMAGES_DIR/qemu-disk.img.\n"
    echo >&2 "It's necessary to run buildroot and then run make-disk-image"
    echo >&2 "before we can boot the result in an emulator."
    exit 2
@@ -33,7 +33,7 @@ export PATH="$ROOT_DIR/toolchain/host/usr/sbin:$ROOT_DIR/toolchain/host/usr/bin:
 cd "$IMAGES_DIR"
 
 qemu-system-x86_64 \
-    -drive file="$IMAGES_DIR/disk.img",if=virtio,index=1,format=raw \
+    -drive file="$IMAGES_DIR/qemu-disk.img",if=virtio,index=1,format=raw \
     -chardev stdio,id=virtiocon0 \
     -device virtio-serial \
     -device virtconsole,chardev=virtiocon0 \

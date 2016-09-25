@@ -41,7 +41,8 @@ toolchain-shell: | toolchain
 skeleton: | toolchain
 	make O=$(BASE_DIR)/skeleton -C $(SETUP_DIR)/buildroot defgrid_common_defconfig
 	make -C $(BASE_DIR)/skeleton
-	./scripts/make-disk-image skeleton/images
+	./scripts/make-disk-image skeleton/images qemu
+	./scripts/make-disk-image skeleton/images xen
 
 .PHONY: buildroot toolchain toolchain-shell skeleton
 .PRECIOUS: $(SETUP_DIR)/buildroot-$(BUILDROOT_VERSION).tar.bz2 $(SETUP_DIR)/buildroot/Makefile

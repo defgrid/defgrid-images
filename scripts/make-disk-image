@@ -16,15 +16,30 @@
 set -eu
 
 ROOT_DIR="$(realpath "$(dirname "$0")/..")"
-SYSLINUX_CFG="$ROOT_DIR/config/common/syslinux.cfg"
 GENIMAGE_CFG="$ROOT_DIR/config/common/genimage.cfg"
 
-if [ -z "${1-}" ]; then
-   echo >&2 "Usage: make-disk-image <output-images-dir>"
+if [ -z "${2-}" ]; then
+   echo >&2 "Usage: make-disk-image <output-images-dir> <xen|qemu>"
    exit 2
 fi
 
 IMAGES_DIR="$(realpath $1)"
+PLATFORM_TYPE="$2"
+
+SYSLINUX_CFG="$ROOT_DIR/config/common/syslinux-$PLATFORM_TYPE.cfg"
+GENIMAGE_CFG="$ROOT_DIR/config/common/genimage-$PLATFORM_TYPE.cfg"
+
+if [ ! -f "$SYSLINUX_CFG" ]; then
+   echo >&2 "Unsupported target platform '$PLATFORM_TYPE'"
+   exit 2
+fi
+if [ ! -f "$GENIMAGE_CFG" ]; then
+   echo >&2 "Unsupported target platform '$PLATFORM_TYPE'"
+   exit 2
+fi
+
+BOOT_IMG_NAME="$PLATFORM_TYPE-boot.img"
+DISK_IMG_NAME="$PLATFORM_TYPE-disk.img"
 
 # Put our toolchain in PATH so we can use the filesystem utilities
 # that buildroot has put in there.
@@ -34,23 +49,23 @@ cd "$IMAGES_DIR"
 
 echo "\nCreating hard disk image from partial images in $IMAGES_DIR ...\n"
 
-echo "- Make VFAT boot.img"
-dd 2>/dev/null if=/dev/zero of=boot.img bs=16M count=1
-mkfs.vfat boot.img
+echo "- Make VFAT $BOOT_IMG_NAME"
+dd 2>/dev/null if=/dev/zero of="$BOOT_IMG_NAME" bs=16M count=1
+mkfs.vfat "$BOOT_IMG_NAME"
 
 echo "- Install kernel"
-mcopy -i boot.img bzImage ::
+mcopy -i "$BOOT_IMG_NAME" bzImage ::
 
 echo "- Install syslinux"
-mcopy -i boot.img "$SYSLINUX_CFG" ::
-syslinux -i boot.img
+mcopy -i "$BOOT_IMG_NAME" "$SYSLINUX_CFG" ::syslinux.cfg
+syslinux -i "$BOOT_IMG_NAME"
 
-echo "- Generate Hard Disk image disk.img"
+echo "- Generate Hard Disk image $DISK_IMG_NAME"
 mkdir -p genimage-tmp
 mkdir -p genimage-root
 genimage --config "$GENIMAGE_CFG" --outputpath "$IMAGES_DIR" --inputpath "$IMAGES_DIR" --rootpath "$IMAGES_DIR/genimage-root" --tmppath "$IMAGES_DIR/genimage-tmp"
 
 echo "- Install syslinux MBR"
-dd 2>/dev/null conv=notrunc bs=440 count=1 if=syslinux/mbr.bin of=disk.img
+dd 2>/dev/null conv=notrunc bs=440 count=1 if=syslinux/mbr.bin of="$DISK_IMG_NAME"
 
-echo "\nAll done! $IMAGES_DIR/disk.img should now be a bootable hard disk image.\n"
+echo "\nAll done! $IMAGES_DIR/$DISK_IMG_NAME should now be a hard disk image that can be booted by $PLATFORM_TYPE.\n"
