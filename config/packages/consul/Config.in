@@ -1,0 +1,17 @@
+config BR2_PACKAGE_CONSUL
+	bool "consul"
+	depends on BR2_PACKAGE_HOST_GO_ARCH_SUPPORTS
+	depends on BR2_PACAKGE_HOST_GO_CGO_LINKING_SUPPORTS
+	depends on BR2_TOOLCHAIN_HAS_THREADS
+	depends on BR2_USE_MMU
+	depends on BR2_USE_WCHAR
+	help
+	  Service discovery and configuration storage solution from Hashicorp.
+
+	  https://www.consul.io/
+
+comment "consul needs a toolchain w/ threads, wchar"
+	depends on BR2_PACKAGE_HOST_GO_ARCH_SUPPORTS
+	depends on BR2_PACKAGE_HOST_GO_CGO_LINKING_SUPPORTS
+	depends on BR2_USE_MMU
+	depends on !BR2_TOOLCHAIN_HAS_THREADS || !BR2_USE_WCHAR
