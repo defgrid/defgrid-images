@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eu
+
+INTERFACE="$1"
+
+ifconfig "$INTERFACE" up 0.0.0.0
+brctl addif defgrid0 "$INTERFACE"

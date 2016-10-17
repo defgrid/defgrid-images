@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eu
+
+INTERFACE="$1"
+
+ifconfig "$INTERFACE" down
+brctl delif defgrid0 "$INTERFACE"

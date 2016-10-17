@@ -1,0 +1,64 @@
+#!/bin/bash
+
+BASE_DIR="$(dirname "$0")"
+RUN_DIR="$BASE_DIR"/.run
+DNSMASQ_PIDFILE="$(realpath "$RUN_DIR"/dnsmasq.pid)"
+DNSMASQ_LEASEFILE="$(realpath "$RUN_DIR"/dnsmasq.leases)"
+DNSMASQ_LOGFILE="$(realpath "$RUN_DIR"/dnsmasq.log)"
+IP_MASQ_MARK=7654
+
+set -eu
+
+start() {
+    if [ -f "$DNSMASQ_PIDFILE" ] && kill -0 $(cat "$DNSMASQ_PIDFILE"); then
+        echo "Our dnsmasq seems to be already running" >&2
+        return 1
+    fi
+    echo "Adding bridge..." >&2
+    brctl addbr defgrid0
+    ifconfig defgrid0 up 192.168.0.1/24
+    echo "Enabling IP masquerading..." >&2
+    iptables -t nat -A PREROUTING -i defgrid0 -j MARK --set-mark="$IP_MASQ_MARK"
+    iptables -t nat -A POSTROUTING -m mark --mark="$IP_MASQ_MARK" -j MASQUERADE
+    echo "Starting dnsmasq..." >&2
+    dnsmasq \
+        --conf-file="" \
+        --strict-order \
+        --pid-file="$DNSMASQ_PIDFILE" \
+        --no-hosts \
+        --listen-address=192.168.0.1 \
+        --interface=defgrid0 \
+        --except-interface=lo \
+        --bind-interfaces \
+        --dhcp-range=192.168.0.2,192.168.0.254 \
+        --port 0 \
+        --dhcp-leasefile="$DNSMASQ_LEASEFILE" \
+        --dhcp-option=6,8.8.8.8 \
+        --log-facility="$DNSMASQ_LOGFILE"
+}
+
+stop() {
+    if [ ! -f "$DNSMASQ_PIDFILE" ] || ! kill -0 $(cat "$DNSMASQ_PIDFILE"); then
+        echo "dnsmasq isn't running" >&2
+        return 1
+    fi
+    echo "Stopping dnsmasq..." >&2
+    kill -TERM $(cat "$DNSMASQ_PIDFILE") && rm -f "$DNSMASQ_PIDFILE"
+    echo "Disabling IP masquerading..." >&2
+    iptables -t nat -D POSTROUTING -m mark --mark="$IP_MASQ_MARK" -j MASQUERADE
+    iptables -t nat -D PREROUTING -i defgrid0 -j MARK --set-mark="$IP_MASQ_MARK"
+    echo "Removing bridge..." >&2
+    ifconfig defgrid0 down
+    brctl delbr defgrid0
+}
+
+case "${1:-}" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    *)
+        echo "Usage: $0 (start|stop)"
+esac
