@@ -1,0 +1,3 @@
+# No extra configuration in the "skeleton" configuration.
+# This config just produces a basic, empty system that goes through the
+# defgrid boot process but doesn't actually run any role-oriented software.

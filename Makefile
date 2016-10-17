@@ -9,7 +9,7 @@ BR2_EXTERNAL=$(abspath config)
 
 export BR2_DL_DIR
 export BR2_EXTERNAL
-export DG_TOOLCHAIN_ROOT
+export DG_TOOLCHAIN_SYSROOT
 
 default:
 	echo We have no default make target right now
@@ -34,15 +34,39 @@ toolchain: buildroot
 toolchain-shell: | toolchain
 	PATH=$(abspath toolchain/host/usr/bin):$(PATH) bash
 
-# "skeleton" is a dummy image that only contains the "common" stuff.
-# It's not useful beyond just testing that the common image build
-# machinery is working, though in a pinch it could be used as a base
-# image for some manual post-build tweaking.
-skeleton: | toolchain
-	make O=$(BASE_DIR)/skeleton -C $(SETUP_DIR)/buildroot defgrid_common_defconfig
-	make -C $(BASE_DIR)/skeleton
-	./scripts/make-disk-image skeleton/images qemu
-	./scripts/make-disk-image skeleton/images xen
+build/%-image/images/xen-disk.img: build/%-image/images/rootfs.ext3
+	./scripts/make-disk-image build/$(*)-image/images xen
+
+build/%-image/images/qemu-disk.img: build/%-image/images/rootfs.ext3
+	./scripts/make-disk-image build/$(*)-image/images qemu
+
+build/%-image/images/rootfs.ext3: build/%-image/.config | toolchain
+	make -C $(BASE_DIR)/build/$(*)-image
+
+build/%-image/.config: build/%-image config/common/buildroot_config config/configs/defgrid_%_defconfig | toolchain
+	make O=$(BASE_DIR)/build/$(*)-image -C $(SETUP_DIR)/buildroot defgrid_$(*)_defconfig
+
+config/configs/defgrid_%_defconfig: config/configs/defgrid_%_extconfig config/common/buildroot_config
+	cat config/common/buildroot_config $< >$@
+
+build/%-image:
+	mkdir -p $@
+
+%-xen: build/%-image/images/xen-disk.img
+	echo $@
+
+%-qemu: build/%-image/images/qemu-disk.img
+	echo $@
+
+%-emulator: %-qemu
+	./scripts/launch-emulator build/$(*)-image/images
+
+# "skeleton" is a dummy image that just contains the "common" bits that
+# we include in all images, but doesn't start up any role-specific services.
+skeleton: skeleton-xen skeleton-qemu
+
+all: skeleton
 
 .PHONY: buildroot toolchain toolchain-shell skeleton
-.PRECIOUS: $(SETUP_DIR)/buildroot-$(BUILDROOT_VERSION).tar.bz2 $(SETUP_DIR)/buildroot/Makefile
+.PRECIOUS: $(SETUP_DIR)/buildroot-$(BUILDROOT_VERSION).tar.bz2 $(SETUP_DIR)/buildroot/Makefile %.img %/.config %.ext3
+.SECONDARY:
