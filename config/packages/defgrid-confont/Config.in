@@ -1,0 +1,6 @@
+config BR2_PACKAGE_DEFGRID_CONFONT
+	bool "defgrid-confont"
+	select BR2_PACKAGE_HOST_DG_KBD
+	select BR2_PACAKGE_HOST_NAFE
+	help
+	  defgrid VGA text-mode console font

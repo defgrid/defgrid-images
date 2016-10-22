@@ -1,0 +1,6 @@
+config BR2_PACKAGE_HOST_NAFE
+	bool "host nafe"
+	help
+	  Produce PSF linux console fonts from plain text source files.
+
+	  http://nafe.sourceforge.net/

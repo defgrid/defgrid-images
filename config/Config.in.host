@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL/packages/nafe/Config.in.host"

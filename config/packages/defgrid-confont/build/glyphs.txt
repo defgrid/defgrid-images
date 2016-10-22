@@ -1,0 +1,4359 @@
+++font-text-file
+++chars
+256
+++width
+8
+++height
+16
+++---000-0x00-''-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---001-0x01-''-
+X     XX
+X     XX
+  XXX  X
+  XXX  X
+  X    X
+  X    X
+  X X  X
+  X X  X
+  X    X
+  X    X
+  XXXXXX
+  XXXXXX
+X    XXX
+X    XXX
+XXXXXXXX
+XXXXXXXX
+++---002-0x02-''-
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---003-0x03-''-
+X     XX
+X     XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X     XX
+X     XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X     XX
+X     XX
+XXXXXXXX
+XXXXXXXX
+++---004-0x04-''-
+XXX    X
+XXX    X
+XX  XXXX
+XX  XXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+XX  XXXX
+XX  XXXX
+XXX    X
+XXX    X
+XXXXXXXX
+XXXXXXXX
+++---005-0x05-''-
+X    XXX
+X    XXX
+X  X  XX
+X  X  XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  X  XX
+X  X  XX
+X    XXX
+X    XXX
+XXXXXXXX
+XXXXXXXX
+++---006-0x06-''-
+X      X
+X      X
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X    XXX
+X    XXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X      X
+X      X
+XXXXXXXX
+XXXXXXXX
+++---007-0x07-''-
+X      X
+X      X
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X    XXX
+X    XXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+XXXXXXXX
+XXXXXXXX
+++---008-0x08-''-
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XXXXX
+X  XXXXX
+X  X   X
+X  X   X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX     X
+XX     X
+XXXXXXXX
+XXXXXXXX
+++---009-0x09-''-
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---010-0x0a-''-
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---011-0x0b-''-
+XXXXX  X
+XXXXX  X
+XXXXX  X
+XXXXX  X
+XXXXX  X
+XXXXX  X
+XXXXX  X
+XXXXX  X
+XXXXX  X
+XXXXX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---012-0x0c-''-
+X  XXX  
+X  XXX  
+X  XX  X
+X  XX  X
+X  X  XX
+X  X  XX
+X    XXX
+X    XXX
+X  X  XX
+X  X  XX
+X  XX  X
+X  XX  X
+X  XXX  
+X  XXX  
+XXXXXXXX
+XXXXXXXX
+++---013-0x0d-''-
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X      X
+X      X
+XXXXXXXX
+XXXXXXXX
+++---014-0x0e-''-
+X  XXX  
+X  XXX  
+X   X   
+X   X   
+X       
+X       
+X  X X  
+X  X X  
+X  XXX  
+X  XXX  
+X  XXX  
+X  XXX  
+X  XXX  
+X  XXX  
+XXXXXXXX
+XXXXXXXX
+++---015-0x0f-''-
+X  XXX  
+X  XXX  
+X   XX  
+X   XX  
+X    X  
+X    X  
+X  X    
+X  X    
+X  XX   
+X  XX   
+X  XXX  
+X  XXX  
+X  XXX  
+X  XXX  
+XXXXXXXX
+XXXXXXXX
+++---016-0x10-''-
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---017-0x11-''-
+X     XX
+X     XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X     XX
+X     XX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+XXXXXXXX
+XXXXXXXX
+++---018-0x12-''-
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  X   X
+X  X   X
+XX      
+XX      
+XXXXXXXX
+XXXXXXXX
+++---019-0x13-''-
+X     XX
+X     XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X     XX
+X     XX
+X  X  XX
+X  X  XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---020-0x14-''-
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X   XXXX
+X   XXXX
+XX    XX
+XX    XX
+XXXX   X
+XXXX   X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---021-0x15-''-
+X      X
+X      X
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXXXXXXX
+XXXXXXXX
+++---022-0x16-''-
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---023-0x17-''-
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X      X
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XXXXXXXX
+XXXXXXXX
+++---024-0x18-''-
+X  XXX  
+X  XXX  
+X  XXX  
+X  XXX  
+X  XXX  
+X  XXX  
+X  X X  
+X  X X  
+X       
+X       
+X   X   
+X   X   
+X  XXX  
+X  XXX  
+XXXXXXXX
+XXXXXXXX
+++---025-0x19-''-
+  XXXX  
+  XXXX  
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+  XXXX  
+  XXXX  
+XXXXXXXX
+XXXXXXXX
+++---026-0x1a-''-
+  XXXX  
+  XXXX  
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXXXXXXX
+XXXXXXXX
+++---027-0x1b-''-
+X       
+X       
+XXXXX  X
+XXXXX  X
+XXXX  XX
+XXXX  XX
+XXX  XXX
+XXX  XXX
+XX  XXXX
+XX  XXXX
+X  XXXXX
+X  XXXXX
+X       
+X       
+XXXXXXXX
+XXXXXXXX
+++---028-0x1c-''-
+XX    XX
+XX    XX
+XX  XXXX
+XX  XXXX
+XX  XXXX
+XX  XXXX
+XX  XXXX
+XX  XXXX
+XX  XXXX
+XX  XXXX
+XX  XXXX
+XX  XXXX
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---029-0x1d-''-
+  XXXXXX
+  XXXXXX
+X  XXXXX
+X  XXXXX
+XX  XXXX
+XX  XXXX
+XXX  XXX
+XXX  XXX
+XXXX  XX
+XXXX  XX
+XXXXX  X
+XXXXX  X
+XXXXXX  
+XXXXXX  
+XXXXXXXX
+XXXXXXXX
+++---030-0x1e-''-
+XX    XX
+XX    XX
+XXXX  XX
+XXXX  XX
+XXXX  XX
+XXXX  XX
+XXXX  XX
+XXXX  XX
+XXXX  XX
+XXXX  XX
+XXXX  XX
+XXXX  XX
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---031-0x1f-''-
+XXXX XXX
+XXXX XXX
+XXX   XX
+XXX   XX
+XX  X  X
+XX  X  X
+X  XXX  
+X  XXX  
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+++---032-0x20-' '-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---033-0x21-'!'-
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+   XX   
+   XX   
+        
+        
+++---034-0x22-'"'-
+ XX XX  
+ XX XX  
+ XX XX  
+ XX XX  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---035-0x23-'#'-
+ XX XX  
+ XX XX  
+ XX XX  
+ XX XX  
+XXXXXXX 
+XXXXXXX 
+ XX XX  
+ XX XX  
+XXXXXXX 
+XXXXXXX 
+ XX XX  
+ XX XX  
+ XX XX  
+ XX XX  
+        
+        
+++---036-0x24-'$'-
+   XX   
+   XX   
+  XXXXX 
+  XXXXX 
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+     XX 
+     XX 
+ XXXXX  
+ XXXXX  
+   XX   
+   XX   
+        
+        
+++---037-0x25-'%'-
+        
+        
+ XX  XX 
+ XX  XX 
+X X XX  
+X X XX  
+XX XX   
+XX XX   
+  XX XX 
+  XX XX 
+ XX X X 
+ XX X X 
+XX  XX  
+XX  XX  
+        
+        
+++---038-0x26-'&'-
+  XXX   
+  XXX   
+ XX XX  
+ XX XX  
+ XX X   
+ XX X   
+ XXX XX 
+ XXX XX 
+XX XXX  
+XX XXX  
+XX  XXX 
+XX  XXX 
+ XXXX XX
+ XXXX XX
+        
+        
+++---039-0x27-'''-
+   XX   
+   XX   
+   XX   
+   XX   
+  XX    
+  XX    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---040-0x28-'('-
+    XX  
+    XX  
+   XX   
+   XX   
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+   XX   
+   XX   
+    XX  
+    XX  
+        
+        
+++---041-0x29-')'-
+  XX    
+  XX    
+   XX   
+   XX   
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+   XX   
+   XX   
+  XX    
+  XX    
+        
+        
+++---042-0x2a-'*'-
+        
+        
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+XXXXXXXX
+XXXXXXXX
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+        
+        
+        
+        
+++---043-0x2b-'+'-
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+ XXXXXX 
+ XXXXXX 
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+        
+        
+++---044-0x2c-','-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+  XX    
+  XX    
+++---045-0x2d-'-'-
+        
+        
+        
+        
+        
+        
+ XXXXXX 
+ XXXXXX 
+        
+        
+        
+        
+        
+        
+        
+        
+++---046-0x2e-'.'-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---047-0x2f-'/'-
+      XX
+      XX
+     XX 
+     XX 
+    XX  
+    XX  
+   XX   
+   XX   
+  XX    
+  XX    
+ XX     
+ XX     
+XX      
+XX      
+        
+        
+++---048-0x30-'0'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX XXX 
+ XX XXX 
+ XXXXXX 
+ XXXXXX 
+ XXX XX 
+ XXX XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---049-0x31-'1'-
+   XX   
+   XX   
+  XXX   
+  XXX   
+ XXXX   
+ XXXX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---050-0x32-'2'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+     XX 
+     XX 
+    XX  
+    XX  
+   XX   
+   XX   
+  XX    
+  XX    
+ XXXXXX 
+ XXXXXX 
+        
+        
+++---051-0x33-'3'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+     XX 
+     XX 
+   XXX  
+   XXX  
+     XX 
+     XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---052-0x34-'4'-
+   XXX  
+   XXX  
+  XXXX  
+  XXXX  
+ XX XX  
+ XX XX  
+XX  XX  
+XX  XX  
+XXXXXXX 
+XXXXXXX 
+    XX  
+    XX  
+    XX  
+    XX  
+        
+        
+++---053-0x35-'5'-
+ XXXXXX 
+ XXXXXX 
+ XX     
+ XX     
+ XXXXX  
+ XXXXX  
+     XX 
+     XX 
+     XX 
+     XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---054-0x36-'6'-
+   XXX  
+   XXX  
+  XX    
+  XX    
+ XX     
+ XX     
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---055-0x37-'7'-
+ XXXXXX 
+ XXXXXX 
+     XX 
+     XX 
+     XX 
+     XX 
+    XX  
+    XX  
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---056-0x38-'8'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---057-0x39-'9'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+     XX 
+     XX 
+    XX  
+    XX  
+  XXX   
+  XXX   
+        
+        
+++---058-0x3a-':'-
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---059-0x3b-';'-
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+  XX    
+  XX    
+++---060-0x3c-'<'-
+        
+        
+     XX 
+     XX 
+   XX   
+   XX   
+ XX     
+ XX     
+   XX   
+   XX   
+     XX 
+     XX 
+        
+        
+        
+        
+++---061-0x3d-'='-
+        
+        
+        
+        
+ XXXXXX 
+ XXXXXX 
+        
+        
+ XXXXXX 
+ XXXXXX 
+        
+        
+        
+        
+        
+        
+++---062-0x3e-'>'-
+        
+        
+ XX     
+ XX     
+   XX   
+   XX   
+     XX 
+     XX 
+   XX   
+   XX   
+ XX     
+ XX     
+        
+        
+        
+        
+++---063-0x3f-'?'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+     XX 
+     XX 
+    XX  
+    XX  
+   XX   
+   XX   
+        
+        
+   XX   
+   XX   
+        
+        
+++---064-0x40-'@'-
+ XXXXX  
+ XXXXX  
+XX   XX 
+XX   XX 
+XX XXXX 
+XX XXXX 
+XX X XX 
+XX X XX 
+XX XXXX 
+XX XXXX 
+XX      
+XX      
+ XXXX   
+ XXXX   
+        
+        
+++---065-0x41-'A'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXXX 
+ XXXXXX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+        
+        
+++---066-0x42-'B'-
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXX  
+ XXXXX  
+        
+        
+++---067-0x43-'C'-
+   XXXX 
+   XXXX 
+  XX    
+  XX    
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+  XX    
+  XX    
+   XXXX 
+   XXXX 
+        
+        
+++---068-0x44-'D'-
+ XXXX   
+ XXXX   
+ XX XX  
+ XX XX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX XX  
+ XX XX  
+ XXXX   
+ XXXX   
+        
+        
+++---069-0x45-'E'-
+ XXXXXX 
+ XXXXXX 
+ XX     
+ XX     
+ XX     
+ XX     
+ XXXX   
+ XXXX   
+ XX     
+ XX     
+ XX     
+ XX     
+ XXXXXX 
+ XXXXXX 
+        
+        
+++---070-0x46-'F'-
+ XXXXXX 
+ XXXXXX 
+ XX     
+ XX     
+ XX     
+ XX     
+ XXXX   
+ XXXX   
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+        
+        
+++---071-0x47-'G'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX     
+ XX     
+ XX XXX 
+ XX XXX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---072-0x48-'H'-
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXXX 
+ XXXXXX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+        
+        
+++---073-0x49-'I'-
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+  XXXX  
+  XXXX  
+        
+        
+++---074-0x4a-'J'-
+     XX 
+     XX 
+     XX 
+     XX 
+     XX 
+     XX 
+     XX 
+     XX 
+     XX 
+     XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---075-0x4b-'K'-
+XX   XX 
+XX   XX 
+XX  XX  
+XX  XX  
+XX XX   
+XX XX   
+XXXX    
+XXXX    
+XX XX   
+XX XX   
+XX  XX  
+XX  XX  
+XX   XX 
+XX   XX 
+        
+        
+++---076-0x4c-'L'-
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XXXXXX 
+ XXXXXX 
+        
+        
+++---077-0x4d-'M'-
+XX   XX 
+XX   XX 
+XXX XXX 
+XXX XXX 
+XXXXXXX 
+XXXXXXX 
+XX X XX 
+XX X XX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+        
+        
+++---078-0x4e-'N'-
+XX   XX 
+XX   XX 
+XXX  XX 
+XXX  XX 
+XXXX XX 
+XXXX XX 
+XX XXXX 
+XX XXXX 
+XX  XXX 
+XX  XXX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+        
+        
+++---079-0x4f-'O'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---080-0x50-'P'-
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXX  
+ XXXXX  
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+        
+        
+++---081-0x51-'Q'-
+ XXXX   
+ XXXX   
+XX  XX  
+XX  XX  
+XX  XX  
+XX  XX  
+XX  XX  
+XX  XX  
+XX  XX  
+XX  XX  
+XX XXX  
+XX XXX  
+ XXXXXX 
+ XXXXXX 
+        
+        
+++---082-0x52-'R'-
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXX  
+ XXXXX  
+ XX XX  
+ XX XX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+        
+        
+++---083-0x53-'S'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XXX    
+ XXX    
+  XXXX  
+  XXXX  
+    XXX 
+    XXX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---084-0x54-'T'-
+ XXXXXX 
+ XXXXXX 
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---085-0x55-'U'-
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---086-0x56-'V'-
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+        
+        
+++---087-0x57-'W'-
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX X XX 
+XX X XX 
+XXXXXXX 
+XXXXXXX 
+XXX XXX 
+XXX XXX 
+XX   XX 
+XX   XX 
+        
+        
+++---088-0x58-'X'-
+XX    XX
+XX    XX
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+XX    XX
+XX    XX
+        
+        
+++---089-0x59-'Y'-
+XX    XX
+XX    XX
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---090-0x5a-'Z'-
+XXXXXXX 
+XXXXXXX 
+    XX  
+    XX  
+   XX   
+   XX   
+  XX    
+  XX    
+ XX     
+ XX     
+XX      
+XX      
+XXXXXXX 
+XXXXXXX 
+        
+        
+++---091-0x5b-'['-
+  XXXX  
+  XXXX  
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XXXX  
+  XXXX  
+        
+        
+++---092-0x5c-'\'-
+XX      
+XX      
+ XX     
+ XX     
+  XX    
+  XX    
+   XX   
+   XX   
+    XX  
+    XX  
+     XX 
+     XX 
+      XX
+      XX
+        
+        
+++---093-0x5d-']'-
+  XXXX  
+  XXXX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+  XXXX  
+  XXXX  
+        
+        
+++---094-0x5e-'^'-
+   X    
+   X    
+  XXX   
+  XXX   
+ XX XX  
+ XX XX  
+XX   XX 
+XX   XX 
+        
+        
+        
+        
+        
+        
+        
+        
+++---095-0x5f-'_'-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+XXXXXXX 
+XXXXXXX 
+++---096-0x60-'`'-
+   XX   
+   XX   
+   XX   
+   XX   
+    XX  
+    XX  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---097-0x61-'a'-
+        
+        
+        
+        
+  XXXX  
+  XXXX  
+     XX 
+     XX 
+  XXXXX 
+  XXXXX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---098-0x62-'b'-
+ XX     
+ XX     
+ XX     
+ XX     
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXX  
+ XXXXX  
+        
+        
+++---099-0x63-'c'-
+        
+        
+        
+        
+  XXXX  
+  XXXX  
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+        
+        
+++---100-0x64-'d'-
+     XX 
+     XX 
+     XX 
+     XX 
+  XXXXX 
+  XXXXX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---101-0x65-'e'-
+        
+        
+        
+        
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XXXXXX 
+ XXXXXX 
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+        
+        
+++---102-0x66-'f'-
+   XXX  
+   XXX  
+  XX    
+  XX    
+ XXXXX  
+ XXXXX  
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+        
+        
+++---103-0x67-'g'-
+        
+        
+        
+        
+  XXXXX 
+  XXXXX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+     XX 
+     XX 
+  XXXX  
+  XXXX  
+++---104-0x68-'h'-
+ XX     
+ XX     
+ XX     
+ XX     
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+        
+        
+++---105-0x69-'i'-
+   XX   
+   XX   
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+    XX  
+    XX  
+        
+        
+++---106-0x6a-'j'-
+    XX  
+    XX  
+        
+        
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+    XX  
+ XXXX   
+ XXXX   
+++---107-0x6b-'k'-
+ XX     
+ XX     
+ XX     
+ XX     
+ XX  XX 
+ XX  XX 
+ XX XX  
+ XX XX  
+ XXXX   
+ XXXX   
+ XX XX  
+ XX XX  
+ XX  XX 
+ XX  XX 
+        
+        
+++---108-0x6c-'l'-
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+    XX  
+    XX  
+        
+        
+++---109-0x6d-'m'-
+        
+        
+        
+        
+XXX XX  
+XXX XX  
+XXXXXXX 
+XXXXXXX 
+XX X XX 
+XX X XX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+        
+        
+++---110-0x6e-'n'-
+        
+        
+        
+        
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+        
+        
+++---111-0x6f-'o'-
+        
+        
+        
+        
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---112-0x70-'p'-
+        
+        
+        
+        
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXX  
+ XXXXX  
+ XX     
+ XX     
+ XX     
+ XX     
+++---113-0x71-'q'-
+        
+        
+        
+        
+  XXXXX 
+  XXXXX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+     XX 
+     XX 
+     XX 
+     XX 
+++---114-0x72-'r'-
+        
+        
+        
+        
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+        
+        
+++---115-0x73-'s'-
+        
+        
+        
+        
+  XXXX  
+  XXXX  
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+     XX 
+     XX 
+ XXXXX  
+ XXXXX  
+        
+        
+++---116-0x74-'t'-
+  XX    
+  XX    
+  XX    
+  XX    
+ XXXXX  
+ XXXXX  
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+   XXX  
+   XXX  
+        
+        
+++---117-0x75-'u'-
+        
+        
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---118-0x76-'v'-
+        
+        
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+        
+        
+++---119-0x77-'w'-
+        
+        
+        
+        
+XX   XX 
+XX   XX 
+XX   XX 
+XX   XX 
+XX X XX 
+XX X XX 
+XXXXXXX 
+XXXXXXX 
+ XX XX  
+ XX XX  
+        
+        
+++---120-0x78-'x'-
+        
+        
+        
+        
+XX   XX 
+XX   XX 
+ XX XX  
+ XX XX  
+  XXX   
+  XXX   
+ XX XX  
+ XX XX  
+XX   XX 
+XX   XX 
+        
+        
+++---121-0x79-'y'-
+        
+        
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+  XX    
+  XX    
+++---122-0x7a-'z'-
+        
+        
+        
+        
+ XXXXXX 
+ XXXXXX 
+    XX  
+    XX  
+   XX   
+   XX   
+  XX    
+  XX    
+ XXXXXX 
+ XXXXXX 
+        
+        
+++---123-0x7b-'{'-
+    XXX 
+    XXX 
+   XX   
+   XX   
+   XX   
+   XX   
+ XXX    
+ XXX    
+   XX   
+   XX   
+   XX   
+   XX   
+    XXX 
+    XXX 
+        
+        
+++---124-0x7c-'|'-
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---125-0x7d-'}'-
+ XXX    
+ XXX    
+   XX   
+   XX   
+   XX   
+   XX   
+    XXX 
+    XXX 
+   XX   
+   XX   
+   XX   
+   XX   
+ XXX    
+ XXX    
+        
+        
+++---126-0x7e-'~'-
+ XXX  X 
+ XXX  X 
+X  XXX  
+X  XXX  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---127-0x7f-''-
+    XXXX
+    XXXX
+  XXXX  
+  XXXX  
+XXXX    
+XXXX    
+XX    XX
+XX    XX
+    XXXX
+    XXXX
+  XXXX  
+  XXXX  
+XXXX    
+XXXX    
+        
+        
+++---128-0x80-'\80'-
+XX  XXXX
+XX  XXXX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---129-0x81-'\81'-
+XXXX  XX
+XXXX  XX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---130-0x82-'\82'-
+XXX  XXX
+XXX  XXX
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---131-0x83-'\83'-
+X   XXX 
+X   XXX 
+ XXX   X
+ XXX   X
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---132-0x84-'\84'-
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---133-0x85-'\85'-
+XXX  XXX
+XXX  XXX
+XX XX XX
+XX XX XX
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+++---134-0x86-'\86'-
+XXX     
+XXX     
+XX    XX
+XX    XX
+XX    XX
+XX    XX
+X  X    
+X  X    
+X     XX
+X     XX
+  XX  XX
+  XX  XX
+  XX    
+  XX    
+XXXXXXXX
+XXXXXXXX
+++---135-0x87-'\87'-
+XXX    X
+XXX    X
+XX  XXXX
+XX  XXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+X  XXXXX
+XX  XXXX
+XX  XXXX
+XXX    X
+XXX    X
+XXXX  XX
+XXXX  XX
+XXX  XXX
+XXX  XXX
+++---136-0x88-'\88'-
+XX  XXXX
+XX  XXXX
+XXX  XXX
+XXX  XXX
+X      X
+X      X
+X  XXXXX
+X  XXXXX
+X    XXX
+X    XXX
+X  XXXXX
+X  XXXXX
+X      X
+X      X
+XXXXXXXX
+XXXXXXXX
+++---137-0x89-'\89'-
+XXXX  XX
+XXXX  XX
+XXX  XXX
+XXX  XXX
+X      X
+X      X
+X  XXXXX
+X  XXXXX
+X    XXX
+X    XXX
+X  XXXXX
+X  XXXXX
+X      X
+X      X
+XXXXXXXX
+XXXXXXXX
+++---138-0x8a-'\8A'-
+XXX  XXX
+XXX  XXX
+X  XX  X
+X  XX  X
+X      X
+X      X
+X  XXXXX
+X  XXXXX
+X    XXX
+X    XXX
+X  XXXXX
+X  XXXXX
+X      X
+X      X
+XXXXXXXX
+XXXXXXXX
+++---139-0x8b-'\8B'-
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+X      X
+X      X
+X  XXXXX
+X  XXXXX
+X    XXX
+X    XXX
+X  XXXXX
+X  XXXXX
+X      X
+X      X
+XXXXXXXX
+XXXXXXXX
+++---140-0x8c-'\8C'-
+XX  XXXX
+XX  XXXX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---141-0x8d-'\8D'-
+XXXX  XX
+XXXX  XX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---142-0x8e-'\8E'-
+XXX  XXX
+XXX  XXX
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---143-0x8f-'\8F'-
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---144-0x90-'\90'-
+X    XXX
+X    XXX
+X  X  XX
+X  X  XX
+X  XX  X
+X  XX  X
+    X  X
+    X  X
+X  XX  X
+X  XX  X
+X  X  XX
+X  X  XX
+X    XXX
+X    XXX
+XXXXXXXX
+XXXXXXXX
+++---145-0x91-'\91'-
+X   XXX 
+X   XXX 
+  XX   X
+  XX   X
+   XX  X
+   XX  X
+    X  X
+    X  X
+  X    X
+  X    X
+  XX   X
+  XX   X
+  XXX  X
+  XXX  X
+XXXXXXXX
+XXXXXXXX
+++---146-0x92-'\92'-
+XX  XXXX
+XX  XXXX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---147-0x93-'\93'-
+XXXX  XX
+XXXX  XX
+XXX  XXX
+XXX  XXX
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---148-0x94-'\94'-
+XXX  XXX
+XXX  XXX
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---149-0x95-'\95'-
+X   XXX 
+X   XXX 
+ XXX   X
+ XXX   X
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---150-0x96-'\96'-
+  XXXX  
+  XXXX  
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---151-0x97-'\97'-
+XXXXXXXX
+XXXXXXXX
+  XXX  X
+  XXX  X
+X  X  XX
+X  X  XX
+XX   XXX
+XX   XXX
+X  X  XX
+X  X  XX
+  XXX  X
+  XXX  X
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+++---152-0x98-'\98'-
+XX      
+XX      
+X  XX  X
+X  XX  X
+X  X   X
+X  X   X
+X      X
+X      X
+X   X  X
+X   X  X
+X  XX  X
+X  XX  X
+      XX
+      XX
+XXXXXXXX
+XXXXXXXX
+++---153-0x99-'\99'-
+XX  XXXX
+XX  XXXX
+XXX  XXX
+XXX  XXX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---154-0x9a-'\9A'-
+XXXX  XX
+XXXX  XX
+XXX  XXX
+XXX  XXX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---155-0x9b-'\9B'-
+XXX  XXX
+XXX  XXX
+XX XX XX
+XX XX XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---156-0x9c-'\9C'-
+X  XX  X
+X  XX  X
+XXXXXXXX
+XXXXXXXX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXXXXXXX
+XXXXXXXX
+++---157-0x9d-'\9D'-
+XXXXX  X
+XXXXX  X
+XXXX XXX
+XXXX XXX
+  XXXX  
+  XXXX  
+X  XX  X
+X  XX  X
+XX    XX
+XX    XX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXX  XXX
+XXXXXXXX
+XXXXXXXX
+++---158-0x9e-'\9E'-
+  XXXXXX
+  XXXXXX
+  XXXXXX
+  XXXXXX
+      XX
+      XX
+  XXX  X
+  XXX  X
+      XX
+      XX
+  XXXXXX
+  XXXXXX
+  XXXXXX
+  XXXXXX
+XXXXXXXX
+XXXXXXXX
+++---159-0x9f-'\9F'-
+XX    XX
+XX    XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  X  XX
+X  X  XX
+X  XX  X
+X  XX  X
+X  XX  X
+X  XX  X
+X  X  XX
+X  X  XX
+X  XXXXX
+X  XXXXX
+++---160-0xa0-'\A0'-
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+X       
+X       
+++---161-0xa1-'\A1'-
+   XX   
+   XX   
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---162-0xa2-'\A2'-
+        
+        
+    XX  
+    XX  
+  XXXXX 
+  XXXXX 
+ XX XX  
+ XX XX  
+  XXXXX 
+  XXXXX 
+    XX  
+    XX  
+        
+        
+        
+        
+++---163-0xa3-'\A3'-
+   XXX  
+   XXX  
+  XX XX 
+  XX XX 
+  XX    
+  XX    
+ XXXX   
+ XXXX   
+  XX    
+  XX    
+  XX    
+  XX    
+ XXXXXX 
+ XXXXXX 
+        
+        
+++---164-0xa4-'\A4'-
+ X    X 
+ X    X 
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+ X    X 
+ X    X 
+        
+        
+        
+        
+        
+        
+++---165-0xa5-'\A5'-
+XX    XX
+XX    XX
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---166-0xa6-'\A6'-
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+++---167-0xa7-'\A7'-
+  XXXX  
+  XXXX  
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+     XX 
+     XX 
+  XXXX  
+  XXXX  
+        
+        
+++---168-0xa8-'\A8'-
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---169-0xa9-'\A9'-
+ XXXXXX 
+ XXXXXX 
+X      X
+X      X
+X  XXX X
+X  XXX X
+X XX   X
+X XX   X
+X  XXX X
+X  XXX X
+X      X
+X      X
+ XXXXXX 
+ XXXXXX 
+        
+        
+++---170-0xaa-'\AA'-
+   XXX  
+   XXX  
+  X  X  
+  X  X  
+ X   X  
+ X   X  
+  XXXX  
+  XXXX  
+        
+        
+ XXXXXX 
+ XXXXXX 
+        
+        
+        
+        
+++---171-0xab-'\AB'-
+        
+        
+  XX  XX
+  XX  XX
+ XX  XX 
+ XX  XX 
+XX  XX  
+XX  XX  
+ XX  XX 
+ XX  XX 
+  XX  XX
+  XX  XX
+        
+        
+        
+        
+++---172-0xac-'\AC'-
+  XXXXX 
+  XXXXX 
+     XX 
+     XX 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---173-0xad-'\AD'-
+        
+        
+        
+        
+        
+        
+ XXXXXX 
+ XXXXXX 
+        
+        
+        
+        
+        
+        
+        
+        
+++---174-0xae-'\AE'-
+ XXXXXX 
+ XXXXXX 
+X      X
+X      X
+X XXX  X
+X XXX  X
+X X  X X
+X X  X X
+X XXX  X
+X XXX  X
+X X  X X
+X X  X X
+X      X
+X      X
+ XXXXXX 
+ XXXXXX 
+++---175-0xaf-'\AF'-
+ XXXXXX 
+ XXXXXX 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---176-0xb0-'\B0'-
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+++---177-0xb1-'\B1'-
+   XX   
+   XX   
+   XX   
+   XX   
+ XXXXXX 
+ XXXXXX 
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+ XXXXXX 
+ XXXXXX 
+        
+        
+++---178-0xb2-'\B2'-
+ XXXX   
+ XXXX   
+    XX  
+    XX  
+   XX   
+   XX   
+  XX    
+  XX    
+ XXXXX  
+ XXXXX  
+        
+        
+        
+        
+        
+        
+++---179-0xb3-'\B3'-
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+++---180-0xb4-'\B4'-
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+XXXXX
+XXXXX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+++---181-0xb5-'\B5'-
+        
+        
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXXXX
+ XXXXXXX
+ XX     
+ XX     
+++---182-0xb6-'\B6'-
+  XXXXX 
+  XXXXX 
+ XXXX X 
+ XXXX X 
+ XXXX X 
+ XXXX X 
+  XXX X 
+  XXX X 
+    X X 
+    X X 
+    X X 
+    X X 
+    X X 
+    X X 
+        
+        
+++---183-0xb7-'\B7'-
+        
+        
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+        
+        
+        
+        
+        
+        
+        
+        
+++---184-0xb8-'\B8'-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+   XX   
+   XX   
+  XX    
+  XX    
+++---185-0xb9-'\B9'-
+  XX    
+  XX    
+ XXX    
+ XXX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+  XX    
+        
+        
+        
+        
+        
+        
+++---186-0xba-'\BA'-
+  XXX   
+  XXX   
+ X   X  
+ X   X  
+ X   X  
+ X   X  
+  XXX   
+  XXX   
+        
+        
+ XXXXX  
+ XXXXX  
+        
+        
+        
+        
+++---187-0xbb-'\BB'-
+        
+        
+XX  XX  
+XX  XX  
+ XX  XX 
+ XX  XX 
+  XX  XX
+  XX  XX
+ XX  XX 
+ XX  XX 
+XX  XX  
+XX  XX  
+        
+        
+        
+        
+++---188-0xbc-'\BC'-
+ X      
+ X      
+XX   XX 
+XX   XX 
+ X  XX  
+ X  XX  
+ X XX   
+ X XX   
+  XX  X 
+  XX  X 
+ XX  XX 
+ XX  XX 
+XX  XXXX
+XX  XXXX
+      X 
+      X 
+++---189-0xbd-'\BD'-
+ X      
+ X      
+XX   XX 
+XX   XX 
+ X  XX  
+ X  XX  
+ X XX   
+ X XX   
+  XXXXX 
+  XXXXX 
+ XX   X 
+ XX   X 
+XX   X  
+XX   X  
+    XXX 
+    XXX 
+++---190-0xbe-'\BE'-
+XX      
+XX      
+  X   XX
+  X   XX
+ XX  XX 
+ XX  XX 
+  X XX  
+  X XX  
+XX XX  X
+XX XX  X
+  XX  XX
+  XX  XX
+ XX  XXX
+ XX  XXX
+       X
+       X
+++---191-0xbf-'\BF'-
+
+
+
+
+
+
+
+XXXXX
+XXXXX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+++---192-0xc0-'\C0'-
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XXXXX
+   XXXXX
+
+
+
+
+
+
+
+++---193-0xc1-'\C1'-
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+XXXXXXXX
+XXXXXXXX
+
+
+
+
+
+
+
+++---194-0xc2-'\C2'-
+
+
+
+
+
+
+
+XXXXXXXX
+XXXXXXXX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+++---195-0xc3-'\C3'-
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XXXXX
+   XXXXX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+++---196-0xc4-'\C4'-
+
+
+
+
+
+
+
+XXXXXXXX
+XXXXXXXX
+
+
+
+
+
+
+
+++---197-0xc5-'\C5'-
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+XXXXXXXX
+XXXXXXXX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+++---198-0xc6-'\C6'-
+
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+
+++---199-0xc7-'\C7'-
+
+XXX
+XXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXX
+XXX
+
+++---200-0xc8-'\C8'-
+
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+
+++---201-0xc9-'\C9'-
+
+
+
+
+
+XX
+XX
+XX
+XX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+
+++---202-0xca-'\CA'-
+
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+
+++---203-0xcb-'\CB'-
+
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XX
+XX
+XX
+XX
+
+
+
+
+
+++---204-0xcc-'\CC'-
+
+     XXX
+   XXXXX
+  XXXXXX
+ XXXXXXX
+ XXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+ XXXXXXX
+ XXXXXXX
+  XXXXXX
+   XXXXX
+     XXX
+
+++---205-0xcd-'\CD'-
+
+XX
+XXXX
+XXXXX
+XXXXX
+XXXX
+XXX
+XX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXX XX
+XX  XX
+
+++---206-0xce-'\CE'-
+
+XXX
+XXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+X
+XX
+XXX
+XXXX
+XXXXX
+XXXXXX
+XXXXXXX
+
+++---207-0xcf-'\CF'-
+
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+
+++---208-0xd0-'\D0'-
+
+     XXX
+   XX   
+  X     
+ X      
+ X      
+X      X
+X      X
+X      X
+ X      
+ X      
+  X     
+   XX   
+     XXX
+
+
+++---209-0xd1-'\D1'-
+
+ XXXXXXX
+ XXXXXXX
+  XXXXXX
+  XXXXXX
+   XXXXX
+   XXXXX
+    XXXX
+    XXXX
+     XXX
+     XXX
+      XX
+      XX
+       X
+
+
+++---210-0xd2-'\D2'-
+  XX    
+  XX    
+   XX   
+   XX   
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---211-0xd3-'\D3'-
+    XX  
+    XX  
+   XX   
+   XX   
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---212-0xd4-'\D4'-
+   XX   
+   XX   
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---213-0xd5-'\D5'-
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+
+
+
+
+
+
+
+
+++---214-0xd6-'\D6'-
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+
+
+
+
+
+
+
+
+++---215-0xd7-'\D7'-
+
+
+
+
+
+
+
+
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+++---216-0xd8-'\D8'-
+
+
+
+
+
+
+
+
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+++---217-0xd9-'\D9'-
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+XXXXX
+XXXXX
+
+
+
+
+
+
+
+++---218-0xda-'\DA'-
+
+
+
+
+
+
+
+   XXXXX
+   XXXXX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+   XX
+++---219-0xdb-'\DB'-
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+++---220-0xdc-'\DC'-
+
+
+
+
+
+
+
+
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+++---221-0xdd-'\DD'-
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+XXXX
+++---222-0xde-'\DE'-
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+    XXXX
+++---223-0xdf-'\DF'-
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+
+
+
+
+
+
+
+
+++---224-0xe0-'\E0'-
+
+XXX
+   XX
+
+      X
+
+X   X  X 
+X X
+X   X  X 
+
+      X
+
+   XX
+XXX
+
+
+++---225-0xe1-'\E1'-
+
+XXXXXXX
+XXXXXXX
+XXXXXX
+XXXXXX
+XXXXX
+XXXXX
+XXXX
+XXXX
+XXX
+XXX
+XX
+XX
+X
+
+
+++---226-0xe2-'\E2'-
+   XX   
+   XX   
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+     XX 
+     XX 
+  XXXXX 
+  XXXXX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---227-0xe3-'\E3'-
+ XXX   X
+ XXX   X
+X   XXX 
+X   XXX 
+  XXXX  
+  XXXX  
+     XX 
+     XX 
+  XXXXX 
+  XXXXX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---228-0xe4-'\E4'-
+ XX  XX 
+ XX  XX 
+        
+        
+  XXXX  
+  XXXX  
+     XX 
+     XX 
+  XXXXX 
+  XXXXX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---229-0xe5-'\E5'-
+   XX   
+   XX   
+  X  X  
+  X  X  
+  XXXX  
+  XXXX  
+     XX 
+     XX 
+  XXXXX 
+  XXXXX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---230-0xe6-'\E6'-
+        
+        
+        
+        
+ XXXXXX 
+ XXXXXX 
+   XX XX
+   XX XX
+ XXXXXXX
+ XXXXXXX
+XX XX   
+XX XX   
+ XXX XXX
+ XXX XXX
+        
+        
+++---231-0xe7-'\E7'-
+        
+        
+        
+        
+  XXXX  
+  XXXX  
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+++---232-0xe8-'\E8'-
+  XX    
+  XX    
+   XX   
+   XX   
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XXXXXX 
+ XXXXXX 
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+        
+        
+++---233-0xe9-'\E9'-
+    XX  
+    XX  
+   XX   
+   XX   
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XXXXXX 
+ XXXXXX 
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+        
+        
+++---234-0xea-'\EA'-
+   XX   
+   XX   
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XXXXXX 
+ XXXXXX 
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+        
+        
+++---235-0xeb-'\EB'-
+ XX  XX 
+ XX  XX 
+        
+        
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XXXXXX 
+ XXXXXX 
+ XX     
+ XX     
+  XXXX  
+  XXXX  
+        
+        
+++---236-0xec-'\EC'-
+  XX    
+  XX    
+   XX   
+   XX   
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+    XX  
+    XX  
+        
+        
+++---237-0xed-'\ED'-
+    XX  
+    XX  
+   XX   
+   XX   
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+    XX  
+    XX  
+        
+        
+++---238-0xee-'\EE'-
+   XX   
+   XX   
+ XX  XX 
+ XX  XX 
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+    XX  
+    XX  
+        
+        
+++---239-0xef-'\EF'-
+        
+        
+ XX  XX 
+ XX  XX 
+        
+        
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+   XX   
+    XX  
+    XX  
+        
+        
+++---240-0xf0-'\F0'-
+ XX     
+ XX     
+XXXXXX  
+XXXXXX  
+   XX   
+   XX   
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---241-0xf1-'\F1'-
+ XXX   X
+ XXX   X
+X   XXX 
+X   XXX 
+        
+        
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+        
+        
+++---242-0xf2-'\F2'-
+  XX    
+  XX    
+   XX   
+   XX   
+        
+        
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---243-0xf3-'\F3'-
+    XX  
+    XX  
+   XX   
+   XX   
+        
+        
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---244-0xf4-'\F4'-
+   XX   
+   XX   
+ XX  XX 
+ XX  XX 
+        
+        
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---245-0xf5-'\F5'-
+ XXX   X
+ XXX   X
+X   XXX 
+X   XXX 
+        
+        
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---246-0xf6-'\F6'-
+        
+        
+ XX  XX 
+ XX  XX 
+        
+        
+  XXXX  
+  XXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+        
+        
+++---247-0xf7-'\F7'-
+        
+        
+   XX   
+   XX   
+        
+        
+ XXXXXX 
+ XXXXXX 
+        
+        
+   XX   
+   XX   
+        
+        
+        
+        
+++---248-0xf8-'\F8'-
+        
+        
+      X 
+      X 
+ XXXXX  
+ XXXXX  
+XX  XXX 
+XX  XXX 
+XX X XX 
+XX X XX 
+XXX  XX 
+XXX  XX 
+ XXXXX  
+ XXXXX  
+X       
+X       
+++---249-0xf9-'\F9'-
+  XX    
+  XX    
+   XX   
+   XX   
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---250-0xfa-'\FA'-
+    XX  
+    XX  
+   XX   
+   XX   
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---251-0xfb-'\FB'-
+   XX   
+   XX   
+ XX  XX 
+ XX  XX 
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---252-0xfc-'\FC'-
+        
+        
+ XX  XX 
+ XX  XX 
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXXX 
+  XXXXX 
+        
+        
+++---253-0xfd-'\FD'-
+    XX  
+    XX  
+   XX   
+   XX   
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+  XX    
+  XX    
+++---254-0xfe-'\FE'-
+ XX     
+ XX     
+ XX     
+ XX     
+ XXXXX  
+ XXXXX  
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XXXXX  
+ XXXXX  
+ XX     
+ XX     
+ XX     
+ XX     
+++---255-0xff-'\FF'-
+        
+        
+ XX  XX 
+ XX  XX 
+        
+        
+ XX  XX 
+ XX  XX 
+ XX  XX 
+ XX  XX 
+  XXXX  
+  XXXX  
+   XX   
+   XX   
+  XX    
+  XX    

@@ -1,2 +1,3 @@
 source "$BR2_EXTERNAL/packages/consul/Config.in"
+source "$BR2_EXTERNAL/packages/defgrid-confont/Config.in"
 source "$BR2_EXTERNAL/packages/defgrid-init/Config.in"
