@@ -43,10 +43,13 @@ endef
 define DEFGRID_INIT_BUILD_CMDS
 	cd $(@D); $(DEFGRID_INIT_MAKE_ENV) $(HOST_DIR)/usr/bin/go build \
 	    -v -o $(@D)/bin/defgrid-init -ldflags "$(DEFGRID_INIT_GLDFLAGS)" github.com/defgrid/defgrid-init
+	cd $(@D); $(DEFGRID_INIT_MAKE_ENV) $(HOST_DIR)/usr/bin/go build \
+	    -v -o $(@D)/bin/dhcpclient -ldflags "$(DEFGRID_INIT_GLDFLAGS)" github.com/defgrid/defgrid-init/dhcpclient
 endef
 
 define DEFGRID_INIT_INSTALL_TARGET_CMDS
 	$(INSTALL) -D -m 755 $(@D)/bin/defgrid-init $(TARGET_DIR)/sbin/defgrid-init
+	$(INSTALL) -D -m 755 $(@D)/bin/dhcpclient $(TARGET_DIR)/usr/lib/defgrid-init/dhcpclient
 endef
 
 $(eval $(generic-package))
