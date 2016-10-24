@@ -45,11 +45,14 @@ define DEFGRID_INIT_BUILD_CMDS
 	    -v -o $(@D)/bin/defgrid-init -ldflags "$(DEFGRID_INIT_GLDFLAGS)" github.com/defgrid/defgrid-init
 	cd $(@D); $(DEFGRID_INIT_MAKE_ENV) $(HOST_DIR)/usr/bin/go build \
 	    -v -o $(@D)/bin/dhcpclient -ldflags "$(DEFGRID_INIT_GLDFLAGS)" github.com/defgrid/defgrid-init/dhcpclient
+	cd $(@D); $(DEFGRID_INIT_MAKE_ENV) $(HOST_DIR)/usr/bin/go build \
+	    -v -o $(@D)/bin/sshd -ldflags "$(DEFGRID_INIT_GLDFLAGS)" github.com/defgrid/defgrid-init/sshd
 endef
 
 define DEFGRID_INIT_INSTALL_TARGET_CMDS
 	$(INSTALL) -D -m 755 $(@D)/bin/defgrid-init $(TARGET_DIR)/sbin/defgrid-init
 	$(INSTALL) -D -m 755 $(@D)/bin/dhcpclient $(TARGET_DIR)/usr/lib/defgrid-init/dhcpclient
+	$(INSTALL) -D -m 755 $(@D)/bin/sshd $(TARGET_DIR)/usr/lib/defgrid-init/sshd
 endef
 
 $(eval $(generic-package))
